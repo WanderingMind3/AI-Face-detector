@@ -15,7 +15,7 @@ for [x, y, w, h,] in coord:
 
 print(coord)
 
-cv2.imshow('Clever Programmer Face Detector', img)
+cv2.imshow('Face Detector', img)
 cv2.waitKey()
 
 
