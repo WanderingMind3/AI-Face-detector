@@ -22,7 +22,7 @@ while True:
     for [x, y, w, h,] in coord:
         cv2.rectangle(frame, (x, y), (x+w , y+h), (randrange(255), randrange(255), randrange(255)), 4)
     
-    cv2.imshow('Clever Programmer Face Detector', frame)
+    cv2.imshow('Face Detector', frame)
     k=cv2.waitKey(1)
 
     if k==ord('q'):
